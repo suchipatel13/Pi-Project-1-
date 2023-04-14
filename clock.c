@@ -4,7 +4,7 @@
 #include "FBCurses.h"
 
 void convertTime(int num1, colorcode_t oncolor, colorcode_t offcolor,int column){
-        int num = 7;
+        int count = 7;
         while(num1 !=0){
                 if (num1 %2 ==0){
                         setPixel(count,column,offcolor);
